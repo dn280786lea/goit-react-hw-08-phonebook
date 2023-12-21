@@ -1,16 +1,29 @@
+import { useEffect, lazy } from 'react';
+import { useDispatch } from 'react-redux';
+import { fetchContacts } from '../redux/operations';
+import { Route, Routes } from 'react-router-dom';
+import { Layout } from './Layout';
+
+/* import { RestrictedRoute } from './RestrictedRoute'; */
+import './App.css';
+
+const HomePage = lazy(() => import('../pages/Home'));
+/* const RegisterPage = lazy(() => import('../pages/Register')); */
+
 export const App = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(fetchContacts());
+  }, [dispatch]);
+
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />}>
+        <Route index element={<HomePage />} />
+      </Route>
+    </Routes>
   );
 };
+
+export default App;
