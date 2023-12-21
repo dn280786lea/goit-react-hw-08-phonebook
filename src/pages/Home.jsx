@@ -1,14 +1,9 @@
 import React from 'react';
 
-export default function Home() {
-  return (
-    <div>
-      <h1>
-        Task manager welcome page{' '}
-        <span role="img" aria-label="Greeting icon">
-          💁‍♀️
-        </span>
-      </h1>
-    </div>
-  );
-}
+const Home = () => (
+  <div>
+    <h1>Welcome to the Home Page</h1>
+  </div>
+);
+
+export default Home;

@@ -7,7 +7,7 @@ import { Layout } from './Layout';
 /* import { RestrictedRoute } from './RestrictedRoute'; */
 import './App.css';
 
-const HomePage = lazy(() => import('../pages/Home'));
+const Home = lazy(() => import('../pages/Home'));
 /* const RegisterPage = lazy(() => import('../pages/Register')); */
 
 export const App = () => {
@@ -18,11 +18,13 @@ export const App = () => {
   }, [dispatch]);
 
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<HomePage />} />
-      </Route>
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+        </Route>
+      </Routes>
+    </>
   );
 };
 
