@@ -21,10 +21,10 @@ export const addContact = createAsyncThunk(
     try {
       console.log('Выполняется запрос к API...');
       const response = await axios.post('/сontact', { name, phone });
-      console.log('Ответ:', response.data);
+      console.log('Answer:', response.data);
       return response.data;
     } catch (e) {
-      console.error('Ошибка:', e.message);
+      console.error('Error:', e.message);
       return thunkAPI.rejectWithValue(e.message);
     }
   }
