@@ -49,20 +49,24 @@
 
 .btn-primary-lg {
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   display: block;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border: none;
+  height: 45px;
+  border: 1px solid #7579ff;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   color: #fff;
   cursor: pointer;
+  background: #7579ff;
+  padding: 1px 5px;
   font-size: 16px;
-  padding: 0px 5px;
-  background-color: #7579ff;
+  width: 100px;
 }
-.btn-primary :hover,
-.btn-primary :focus {
+.btn-primary-lg:hover,
+.btn-primary-lg:focus {
   color: #fff;
-  background-color: #7579ff;
+  background-color: #b224ef;
+  border: 1px solid #fff;
 }

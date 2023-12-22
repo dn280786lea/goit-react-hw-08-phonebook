@@ -20,6 +20,7 @@
   display: block;
   margin: 0 auto;
   border: none;
+  height: 30px;
 }
 
 .form-container {
@@ -33,7 +34,6 @@
   text-align: center;
   font-weight: 700;
   display: block;
-  border-radius: 25px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   border: none;
@@ -44,11 +44,15 @@
   background-color: #7579ff;
   margin: 10px;
   font-size: 16px;
+  padding: 1px 5px;
+  width: 120px;
+  height: 30px;
 }
 
 .namebtn:hover,
 .namebtn:focus {
-  background-color: #757aff7a;
+  background-color: #b224ef;
+  border: 1px solid #fff;
 }
 .phonebook-title {
   font-size: 30px;
