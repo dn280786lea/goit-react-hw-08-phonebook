@@ -1,10 +1,11 @@
-import Filter from '../components/Filter/Filter';
-import ContactForm from '../components/ContactForm/ContactForm';
-import ContactList from '../components/ContactList/ContactList';
+import Filter from '../../components/Filter/Filter';
+import ContactForm from '../../components/ContactForm/ContactForm';
+import ContactList from '../../components/ContactList/ContactList';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { fetchContacts } from '../redux/operations';
-import { selectError, selectIsLoading } from '../redux/selectors';
+import { fetchContacts } from '../../redux/operations';
+import { selectError, selectIsLoading } from '../../redux/selectors';
+import {} from './Contacts.css';
 
 export const Contacts = () => {
   const dispatch = useDispatch();
@@ -15,13 +16,13 @@ export const Contacts = () => {
     dispatch(fetchContacts());
   }, [dispatch]);
   return (
-    <section className="contact-form">
+    <div>
       <ContactForm />
-      <h2 className="contact">Contacts</h2>
+      <h2 className="contact-contacts">Contacts</h2>
       <Filter />
       <ContactList />
       {isLoading && !error && <b>Request in progress...</b>}
-    </section>
+    </div>
   );
 };
 
