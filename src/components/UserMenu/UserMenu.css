@@ -1,0 +1,30 @@
+.contact-logout {
+  display: flex;
+}
+
+.contact-btn {
+  text-align: center;
+  font-weight: 700;
+  display: block;
+  border-radius: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  margin: 0 auto;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #7579ff;
+  margin: 10px;
+  font-size: 16px;
+}
+
+.contact-btn:hover,
+.contact-btn:focus {
+  background-color: #757aff7a;
+}
+.contact-logout {
+  font-weight: 700;
+  font-size: 16px;
+  color: #7579ff;
+}

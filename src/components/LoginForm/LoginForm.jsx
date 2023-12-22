@@ -23,13 +23,13 @@ export const LoginForm = () => {
       <div className="row-form">
         <label className="label">
           Email
-          <input type="email" name="email" className="input" />
+          <input type="email" name="email" className="input-lg" />
         </label>
       </div>
       <div className="row-form">
         <label className="label">
           Password
-          <input type="password" name="password" className="input" />
+          <input type="password" name="password" className="input-lg" />
         </label>
       </div>
       <button type="submit" className="btn-primary-lg">

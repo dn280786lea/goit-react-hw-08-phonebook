@@ -37,13 +37,13 @@ export const ContactForm = () => {
       <h1 className="phonebook-title">Phonebook</h1>
       <form onSubmit={handleFormSubmit} className="form-container">
         <div className="form-group">
-          <label className="form-title" htmlFor="name">
+          <label className="form-title-cont" htmlFor="name">
             Name:
           </label>
-          <input className="text" type="text" name="name" required />
+          <input className="input-contact" type="text" name="name" required />
         </div>
         <div className="form-group">
-          <label className="form-title" htmlFor="number">
+          <label className="form-title-cont" htmlFor="number">
             Number:
           </label>
           <input
@@ -52,6 +52,7 @@ export const ContactForm = () => {
             required
             pattern="\+?\d{1,4}?[ .\-\s]?\(?\d{1,3}?\)?[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,9}"
             title="Please enter a valid number"
+            className="input-contact"
           />
         </div>
         <button className="namebtn" type="submit">

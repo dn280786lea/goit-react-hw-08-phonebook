@@ -1,68 +1,61 @@
-.phonebook-title {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 20px;
-  text-align: center;
+.form-group {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
 }
 
-.phonebook-form {
+.form-group label,
+.form-group input {
+  margin: 0 10px; /* Adjust spacing between label and input */
+}
+
+.input-contact {
+  max-width: 200px;
+  border-radius: 30px;
+  height: auto;
+  font-size: 16px;
+  padding-left: 10px;
+  display: block;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 .form-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
   margin: 0 auto;
-}
-
-.form-group {
-  margin: 10px 0;
-  display: flex;
-  flex-direction: column;
+  justify-content: center;
 }
 
 .namebtn {
-  background-color: green;
-  color: black;
-  border-radius: 10px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 20px;
-  width: 200px;
-  box-shadow: 10px 5px 5px rgb(134, 218, 148);
+  text-align: center;
+  font-weight: 700;
+  display: block;
+  border-radius: 25px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   border: none;
-  margin-top: 20px;
-  height: auto;
-}
-
-.namebtn:hover {
-  background-color: green;
-  color: white;
-  box-shadow: 10px 5px 5px rgb(134, 218, 148);
-}
-
-.phonebook-name,
-.phonebook-number {
-  margin-bottom: 10px;
-}
-
-.form-title {
-  flex: 1;
-  padding-right: 10px;
-  padding-bottom: 5px;
-}
-
-input {
-  max-width: 200px;
-  border-radius: 30px;
-  height: auto;
-  border: none;
+  margin: 0 auto;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #7579ff;
+  margin: 10px;
   font-size: 16px;
-  padding-left: 10px;
 }
-.label-container {
-  display: flex;
-  align-items: center;
+
+.namebtn:hover,
+.namebtn:focus {
+  background-color: #757aff7a;
+}
+.phonebook-title {
+  text-align: center;
+  font-weight: 700;
+  display: block;
+  font-size: 30px;
+  color: #7579ff;
+}
+.form-title-cont {
+  font-weight: 600;
+  font-size: 16px;
+  color: #7579ff;
 }

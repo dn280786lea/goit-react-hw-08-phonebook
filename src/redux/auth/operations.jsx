@@ -15,11 +15,14 @@ export const register = createAsyncThunk(
   async (credentials, thunkApi) => {
     try {
       const resp = await axios.post('/users/signup', credentials);
-
       setAuthHeader(resp.data.token);
       return resp.data;
     } catch (error) {
-      return thunkApi.rejectWithValue(error.message);
+      console.error('Error registration:', error.response.data);
+      return thunkApi.rejectWithValue({
+        message: 'Error validation user',
+        errors: error.response.data.errors,
+      });
     }
   }
 );

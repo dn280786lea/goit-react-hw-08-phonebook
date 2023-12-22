@@ -2,7 +2,7 @@ import React from 'react';
 import {} from './Home.css';
 
 const Home = () => (
-  <div>
+  <div className="home">
     <h1 className="main-title">
       Task manager welcome page
       <span role="img" aria-label="Greeting icon">

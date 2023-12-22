@@ -19,7 +19,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} autoComplete="off">
+    <form className="form-reg" onSubmit={handleSubmit} autoComplete="off">
       <h2 className="form-title">Sing Up</h2>
       <div className="row-form">
         <label htmlFor="inputEmail3" className="row-form-label">
