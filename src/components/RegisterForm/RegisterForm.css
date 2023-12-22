@@ -15,11 +15,6 @@ form {
   background: -moz-linear-gradient(top, #7579ff, #b224ef);
 }
 
-.row-form-label {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 16px;
-}
 .form-title {
   text-align: center;
   font-size: 30px;
@@ -37,6 +32,7 @@ form {
   height: 40px;
   background: 0 0;
   padding: 0 5px 0 5px;
+  margin-top: 10px;
 }
 .row-form-label {
   font-size: 14px;
