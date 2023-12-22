@@ -8,7 +8,7 @@ import { PrivateRoute } from './PrivateRoute'; // Assuming you have a PrivateRou
 
 import './App.css';
 
-const Home = lazy(() => import('../pages/Home'));
+const Home = lazy(() => import('../pages/Home/Home'));
 const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
 const Contacts = lazy(() => import('../pages/Contacts'));

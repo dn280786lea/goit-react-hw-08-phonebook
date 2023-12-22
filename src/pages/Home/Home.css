@@ -1,0 +1,12 @@
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+  font-size: 50px;
+}
