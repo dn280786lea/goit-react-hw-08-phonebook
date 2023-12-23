@@ -13,7 +13,7 @@ export const ContactForm = () => {
 
     const formData = {
       name: e.target.elements.name.value,
-      phone: e.target.elements.number.value,
+      number: e.target.elements.number.value,
     };
 
     const isExist = Array.isArray(contacts)
