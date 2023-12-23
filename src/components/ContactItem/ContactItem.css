@@ -1,18 +1,3 @@
-.deletebtn {
-  margin-left: 20px;
-  color: black;
-  border-radius: 10px;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 20px;
-  width: 80px;
-  border: none;
-}
-
-.deletebtn:hover {
-  color: white;
-}
-
 .item {
   color: black;
   font-size: 16px;
@@ -20,6 +5,7 @@
   line-height: 20px;
   line-height: 1.5;
   width: 250px;
+  text-align: center;
 }
 .contact-item {
   display: flex;
@@ -27,5 +13,36 @@
   justify-content: space-between;
   -moz-box-align: center;
   align-items: center;
-  padding-top: 10px;
+  margin: 0 auto;
+  padding: 10px 60px;
+  gap: 20px;
+}
+.avatar {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.deletebtn {
+  text-align: center;
+  font-weight: 700;
+  display: block;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  margin: 0 auto;
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: #7579ff;
+  margin: 10px;
+  font-size: 16px;
+  padding: 1px 5px;
+  width: 120px;
+  height: 30px;
+}
+
+.deletebtn:hover,
+.deletebtn:focus {
+  background-color: #b224ef;
+  border: 1px solid #fff;
 }
