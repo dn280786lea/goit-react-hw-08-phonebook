@@ -14,7 +14,7 @@ export const ContactItem = ({ name, number, id }) => {
         <Avatar
           className="avatar"
           alt={name}
-          src="/static/images/avatar/3.jpg"
+          src="/img/1640256934286391192.jpg"
         />
       </Stack>
       <span className="item">{name} </span>

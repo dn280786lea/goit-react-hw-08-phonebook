@@ -16,6 +16,11 @@
   margin: 0 auto;
   padding: 10px 60px;
   gap: 20px;
+  width: 750px;
+  box-shadow: rgb(244, 245, 246) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+  border-radius: 30px;
+  margin-bottom: 20px;
 }
 .avatar {
   vertical-align: middle;
