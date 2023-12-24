@@ -6,10 +6,16 @@
   gap: 20px;
   height: 40vh;
   font-size: 50px;
-  color: #7579ff;
+  color: #fff;
+  margin: 15px;
 }
 body {
-  background-color: rgb(214, 205, 205);
+  background: rgb(35, 34, 195);
+  background: radial-gradient(
+    circle,
+    rgba(35, 34, 195, 1) 0%,
+    rgba(183, 45, 253, 0.5198412128523284) 100%
+  );
 }
 #stars {
   width: 1px;

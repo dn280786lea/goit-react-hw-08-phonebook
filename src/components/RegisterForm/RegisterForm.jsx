@@ -55,8 +55,22 @@ export const RegisterForm = () => {
           />
         </div>
       </div>
+      <div className="row-form">
+        <div className="col-sm-10 offset-sm-2">
+          <div className="form-check">
+            <input
+              type="checkbox"
+              className="form-check-input"
+              id="exampleCheck"
+            />
+            <label className="form-check-label" htmlFor="exampleCheck">
+              I agree all statements
+            </label>
+          </div>
+        </div>
+      </div>
       <button type="submit" className="btn-primary">
-        Sign in
+        Sign up
       </button>
     </form>
   );

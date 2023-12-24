@@ -15,6 +15,7 @@
     #7579ff,
     #b224ef
   ); /* Webkit (Chrome, Safari) */
+  position: relative;
 }
 
 .form-title-lh {
@@ -69,4 +70,14 @@
   color: #fff;
   background-color: #b224ef;
   border: 1px solid #fff;
+}
+
+.icon-user {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  fill: #fff;
+  margin-bottom: 20px;
+  padding: 5px;
 }

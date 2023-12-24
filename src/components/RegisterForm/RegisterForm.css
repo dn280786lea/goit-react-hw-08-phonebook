@@ -73,3 +73,8 @@
   background-color: #b224ef;
   border: 1px solid #fff;
 }
+.form-check-label {
+  font-size: 12px;
+  color: #fff;
+  padding-left: 10px;
+}
