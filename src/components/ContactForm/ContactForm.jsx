@@ -40,7 +40,13 @@ export const ContactForm = () => {
           <label className="form-title-cont" htmlFor="name">
             Name:
           </label>
-          <input className="input-contact" type="text" name="name" required />
+          <input
+            className="input-contact"
+            type="text"
+            name="name"
+            required
+            placeholder="Enter by name"
+          />
         </div>
         <div className="form-group">
           <label className="form-title-cont" htmlFor="number">
@@ -51,8 +57,8 @@ export const ContactForm = () => {
             name="number"
             required
             pattern="\+?\d{1,4}?[ .\-\s]?\(?\d{1,3}?\)?[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,4}[ .\-\s]?\d{1,9}"
-            title="Please enter a valid number"
             className="input-contact"
+            placeholder="Enter by number"
           />
         </div>
         <button className="namebtn" type="submit">

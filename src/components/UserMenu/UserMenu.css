@@ -3,17 +3,18 @@
 }
 
 .contact-btn {
-  text-align: center;
-  font-weight: 700;
-  display: block;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border: 2px solid #333;
-  margin: 0 auto;
-  color: #333;
-  cursor: pointer;
-  font-size: 16px;
-  background-color: rgb(214, 205, 205);
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 0.875rem;
+  min-width: 64px;
+  box-sizing: border-box;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-weight: 400;
+  line-height: 1.75;
+  border-radius: 4px;
+  letter-spacing: 0.02857em;
+  text-transform: uppercase;
 }
 
 .contact-btn:hover,
@@ -26,4 +27,9 @@
   color: #333;
   margin: 15px;
   font-style: italic;
+}
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }

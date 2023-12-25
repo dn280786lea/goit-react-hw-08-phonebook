@@ -5,13 +5,10 @@
   font-weight: 600;
 }
 
-.contact-main {
-  width: 850px;
-  margin: 0 auto;
-  box-sizing: border-box;
-  padding-bottom: 20px;
-}
-
 .contact-contacts {
-  color: #fff;
+  font-size: 34px;
+  color: black;
+  text-align: center;
+  font-weight: 900;
+  font-style: italic;
 }
