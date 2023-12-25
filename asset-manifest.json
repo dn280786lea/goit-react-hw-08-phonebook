@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.2f87bd1a.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.2c1c5dcc.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.63b38714.js",
     "static/css/474.ba5ef5bd.chunk.css": "/goit-react-hw-08-phonebook/static/css/474.ba5ef5bd.chunk.css",
-    "static/js/474.ba728f12.chunk.js": "/goit-react-hw-08-phonebook/static/js/474.ba728f12.chunk.js",
+    "static/js/474.79433fcc.chunk.js": "/goit-react-hw-08-phonebook/static/js/474.79433fcc.chunk.js",
     "static/css/462.b53607a1.chunk.css": "/goit-react-hw-08-phonebook/static/css/462.b53607a1.chunk.css",
     "static/js/462.95fb929e.chunk.js": "/goit-react-hw-08-phonebook/static/js/462.95fb929e.chunk.js",
     "static/css/35.e32e83ce.chunk.css": "/goit-react-hw-08-phonebook/static/css/35.e32e83ce.chunk.css",
@@ -16,9 +16,9 @@
     "static/media/Pink and Yellow Cat Modern Hand Drawn Abstract Twitch Profile Picture.png": "/goit-react-hw-08-phonebook/static/media/Pink and Yellow Cat Modern Hand Drawn Abstract Twitch Profile Picture.f263d40255ace050e6a7.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.2f87bd1a.css.map": "/goit-react-hw-08-phonebook/static/css/main.2f87bd1a.css.map",
-    "main.2c1c5dcc.js.map": "/goit-react-hw-08-phonebook/static/js/main.2c1c5dcc.js.map",
+    "main.63b38714.js.map": "/goit-react-hw-08-phonebook/static/js/main.63b38714.js.map",
     "474.ba5ef5bd.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/474.ba5ef5bd.chunk.css.map",
-    "474.ba728f12.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/474.ba728f12.chunk.js.map",
+    "474.79433fcc.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/474.79433fcc.chunk.js.map",
     "462.b53607a1.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/462.b53607a1.chunk.css.map",
     "462.95fb929e.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/462.95fb929e.chunk.js.map",
     "35.e32e83ce.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/35.e32e83ce.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.2f87bd1a.css",
-    "static/js/main.2c1c5dcc.js"
+    "static/js/main.63b38714.js"
   ]
 }
