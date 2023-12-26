@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.2f87bd1a.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.3d5755ea.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.07bb3a9b.js",
     "static/css/474.ba5ef5bd.chunk.css": "/goit-react-hw-08-phonebook/static/css/474.ba5ef5bd.chunk.css",
     "static/js/474.90992f8f.chunk.js": "/goit-react-hw-08-phonebook/static/js/474.90992f8f.chunk.js",
     "static/css/462.b53607a1.chunk.css": "/goit-react-hw-08-phonebook/static/css/462.b53607a1.chunk.css",
@@ -16,7 +16,7 @@
     "static/media/Pink and Yellow Cat Modern Hand Drawn Abstract Twitch Profile Picture.png": "/goit-react-hw-08-phonebook/static/media/Pink and Yellow Cat Modern Hand Drawn Abstract Twitch Profile Picture.f263d40255ace050e6a7.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.2f87bd1a.css.map": "/goit-react-hw-08-phonebook/static/css/main.2f87bd1a.css.map",
-    "main.3d5755ea.js.map": "/goit-react-hw-08-phonebook/static/js/main.3d5755ea.js.map",
+    "main.07bb3a9b.js.map": "/goit-react-hw-08-phonebook/static/js/main.07bb3a9b.js.map",
     "474.ba5ef5bd.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/474.ba5ef5bd.chunk.css.map",
     "474.90992f8f.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/474.90992f8f.chunk.js.map",
     "462.b53607a1.chunk.css.map": "/goit-react-hw-08-phonebook/static/css/462.b53607a1.chunk.css.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.2f87bd1a.css",
-    "static/js/main.3d5755ea.js"
+    "static/js/main.07bb3a9b.js"
   ]
 }
