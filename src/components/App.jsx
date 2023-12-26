@@ -14,7 +14,7 @@ const RegisterPage = lazy(() => import('../pages/Register'));
 const LoginPage = lazy(() => import('../pages/Login'));
 const Contacts = lazy(() => import('../pages/Contacts/Contacts'));
 
-export const App = () => {
+const App = () => {
   const dispatch = useDispatch();
   const { isRefreshing } = useAuth();
   const { register, login, home, contacts } = routes;
@@ -55,6 +55,7 @@ export const App = () => {
             }
           />
         </Route>
+
         <Route path="*" element={<Navigate to={home} />} />
       </Routes>
     </>
