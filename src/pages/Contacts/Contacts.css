@@ -1,18 +1,29 @@
-.contact-contacts {
-  font-size: 30px;
-  color: #333;
-  text-align: center;
-  font-weight: 600;
+@media screen and (min-width: 320px) {
+  .contact-contacts {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+  }
 }
+@media screen and (min-width: 780px) {
+  .contact-contacts {
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: 600;
+  }
 
-.contact-contacts {
-  font-size: 34px;
-  color: black;
-  text-align: center;
-  font-weight: 900;
-  font-style: italic;
-}
-body {
-  background-image: url(..//../img/pexels-lukas-628241.jpg);
-  background-size: cover;
+  .contact-contacts {
+    font-size: 34px;
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-style: italic;
+  }
+  body {
+    background-image: url(..//../img/pexels-lukas-628241.jpg);
+    background-size: cover;
+  }
 }

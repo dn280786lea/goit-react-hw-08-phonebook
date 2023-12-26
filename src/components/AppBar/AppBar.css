@@ -6,4 +6,5 @@
   border-image: linear-gradient(to right, #7579ff, #b224ef, #fcb045, #b345fc)
     47% 0%;
   margin: 0 5px;
+  box-sizing: border-box;
 }
