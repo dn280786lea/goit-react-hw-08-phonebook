@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import './ContactItem.css';
-import { deleteContact } from '../../redux/operations';
+import { deleteContact } from '../../redux/contact/operations';
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
 import * as React from 'react';

@@ -3,8 +3,8 @@ import ContactForm from '../../components/ContactForm/ContactForm';
 import ContactList from '../../components/ContactList/ContactList';
 import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
-import { fetchContacts } from '../../redux/operations';
-import { selectError, selectIsLoading } from '../../redux/selectors';
+import { fetchContacts } from '../../redux/contact/operations';
+import { selectError, selectIsLoading } from '../../redux/contact/selectors';
 import {} from './Contacts.css';
 import { Loader } from 'components/Loader/Loader';
 
