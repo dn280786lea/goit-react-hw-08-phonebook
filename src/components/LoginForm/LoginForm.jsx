@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { logIn } from '..//../redux/auth/operations';
 import {} from './LoginForm.css';
+import { NavLink } from 'react-router-dom';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
@@ -42,6 +43,12 @@ export const LoginForm = () => {
       <button type="submit" className="btn-primary-lg">
         Log In
       </button>
+      <div className="acount">
+        No acount ?
+        <NavLink className="acount-nav" to="/register">
+          Create one
+        </NavLink>
+      </div>
     </form>
   );
 };

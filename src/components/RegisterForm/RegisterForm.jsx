@@ -1,6 +1,7 @@
 import { useDispatch } from 'react-redux';
 import { register } from '..//../redux/auth/operations';
 import {} from './RegisterForm.css';
+import { NavLink } from 'react-router-dom';
 
 export const RegisterForm = () => {
   const dispatch = useDispatch();
@@ -26,7 +27,12 @@ export const RegisterForm = () => {
           User name
         </label>
         <div className="col-sm-10">
-          <input type="text" className="form-control" name="name" />
+          <input
+            type="text"
+            className="form-control"
+            name="name"
+            placeholder="Enter your name"
+          />
         </div>
       </div>
       <div className="row-form">
@@ -39,6 +45,7 @@ export const RegisterForm = () => {
             className="form-control"
             id="inputEmail3"
             name="email"
+            placeholder="name.@mail.com"
           />
         </div>
       </div>
@@ -52,6 +59,7 @@ export const RegisterForm = () => {
             className="form-control"
             id="inputPassword3"
             name="password"
+            placeholder="min. 7characters"
           />
         </div>
       </div>
@@ -72,6 +80,12 @@ export const RegisterForm = () => {
       <button type="submit" className="btn-primary">
         Sign up
       </button>
+      <div className="acount">
+        Already have an account?{' '}
+        <NavLink className="acount-nav" to="/login">
+          Log in
+        </NavLink>
+      </div>
     </form>
   );
 };

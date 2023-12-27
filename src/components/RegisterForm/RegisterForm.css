@@ -78,3 +78,13 @@
   color: #fff;
   padding-left: 10px;
 }
+.acount {
+  font-size: 10px;
+  color: #fff;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.acount-nav {
+  padding-left: 3px;
+}
